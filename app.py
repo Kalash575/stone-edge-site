@@ -6,7 +6,8 @@ import matplotlib.pyplot as plt
 st.set_page_config(page_title="Stone Edge Capital", layout="centered")
 
 # Logo and Title
-st.image("logo.png", width=120)
+st.markdown("<div style='text-align:center;'>", unsafe_allow_html=True)
+st.image("logo.png", width=140)
 st.markdown("<h1 style='text-align: center; color: #2c3e50;'>STONE EDGE CAPITAL</h1>", unsafe_allow_html=True)
 st.markdown("<h4 style='text-align: center; color: #2c3e50;'>Founded in 2023 by Shantanu Jha and Kalash Mendole</h4>", unsafe_allow_html=True)
 
